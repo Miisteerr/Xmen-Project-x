@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-men</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="src/css/reset.css">
+<link rel="stylesheet" href="./src/css/estilos.css">
+<link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/logo.svg" alt="logo X-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="Ciclope" data-name="Ciclope" data-description="Ele tem o poder de disparar rajadas opticas que ele trás de outra dimensão e é um dos lideres dos X-men.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem ciclope">
+                </li>
+                <li class="personagem" id="Jean-grey" data-name="Jean Grey"data-description="É uma mutante nível omega com poderes de telepatia e telecinese.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey"> 
+                </li>
+                <li class="personagem" id="Lince-negra" data-name="Lince negra" data-description="Pode atravessar materias solidos e sempre acompanhada do seu parceiro dragão.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+                <li class="personagem" id="Tempestade" data-name="Tempestade" data-description="Ororo Pode manipular o Clima e disparar relampagos.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+                <li class="personagem" id="Vampira" data-name="vampira" data-description="Com um poder altamente perigoso, vampira pode absorver poderes por um curto periodo de tempo causando grande danos a seus inimigos.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+                <li class="personagem" id="Wolverine" data-name="Wolverine" data-description="Logan possui um esqueleto de adamantiun,pode sacar garras de seus punhos e possui um alto nível de regeneração o tornando quase imortal.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+                <li class="personagem" id="Noturno" data-name="Noturno" data-description="Kurt Pode se teleportar para longas distancias e possui ótimo conhecimento de combate.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+                <li class="personagem" id="Magneto" data-name="Magneto" data-description="Erik é um grande antagonista dos X-men capaz de controlar e manipular metais.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas opticas que ele trás de outra dimensão e é um dos lideres dos X-men. </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
